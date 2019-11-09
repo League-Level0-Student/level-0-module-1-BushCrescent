@@ -5,7 +5,7 @@ package _03_remarkable;
 import javax.swing.JOptionPane;
 
 public class Remarkable {
-public static void main(String[] args) {
+	public static void main(String[] args) {
 
 		// 1. Save something remarkable about each person in a variable.
 

@@ -16,8 +16,8 @@ import javax.swing.JOptionPane;
 
 public class SecretMessageBox {
 public static void main(String[] args) {
-String password = "johnisacoolkid";
-String message = JOptionPane.showInputDialog("Type in a secret message");
+String message = "johnisacoolkid";
+String password = JOptionPane.showInputDialog("Type in a secret message");
 String answer = JOptionPane.showInputDialog("What is the passsword? If you guess it, you'll get to see a secret message");
 if(answer.equals(password)){
 	JOptionPane.showMessageDialog(null, message);
